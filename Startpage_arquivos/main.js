@@ -42,7 +42,7 @@ function getDateTime() {
     let greeting = 'おい！！';
     if (hour>=12 && hour<19)
         greeting = 'こんにちは！';
-    else if ((hour>=19 && hour<=24) || (hour>0 && hour<6))
+    else if ((hour>=19 && hour<=24) || (hour>=0 && hour<5))
         greeting = 'こんばんは！';
     else greeting = 'おはよう！';
 //    let date = (day < 10 ? '0' + day : day) + '/' + (month < 10 ? '0' + month : month) + '/' + dateTime.getFullYear();
