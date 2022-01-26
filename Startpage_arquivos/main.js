@@ -1,3 +1,13 @@
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
 /**
  * Interval which the clock will be updated (in milliseconds).
  */
