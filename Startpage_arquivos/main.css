@@ -30,7 +30,7 @@ html {
 body {
     align-items: center;
   /*  background-color: #32302f; */
-    background-image: url("https://i.imgur.com/TPXeDIM.jpg");
+    background-image: url("./bg.jpg");
     background-size: cover;
     color: #ddd;
     display: flex;
