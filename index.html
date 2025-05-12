@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Startpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centered-container">
+            <!-- <div id="topbar"> -->
+                <!-- <span id="greeting-text"></span> -->
+            <!-- </div> -->
+            <div id="box">
+                <div id="box-content">
+                    <div id="greeting-header">
+                        <div id="date-weather">
+                            <span id="date" style="margin-right:8px"></span>
+                            <span id="separator">|</span>
+                            <div id="temperature" style="margin-left:8px"></div>
+                        </div>
+                        <span id="clock"></span>
+                    </div>
+                    <form id="search-form" action="https://www.startpage.com/sp/search">
+                        <div id="search-bar-wrapper">
+                            <input id="search-bar" type="text" title="Search" name="query" placeholder="Search...">
+                        </div>
+                    </form>
+                    <ul id="shortcuts">
+                    </ul>
+                </div>
+                <div id="image-container">
+                    <img src="img/sideimage.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
